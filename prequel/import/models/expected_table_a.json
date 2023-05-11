@@ -1,0 +1,21 @@
+{
+  "columns": [
+    {
+      "name_in_destination": "transaction_id",
+      "data_type": "string",
+      "is_primary_key": true,
+      "description": "ID of the account"
+    },
+    {
+      "name_in_destination": "amount",
+      "data_type": "integer",
+      "description": "Transaction amount in cents"
+    },
+    {
+      "name_in_destination": "updated_at",
+      "data_type": "timestamp",
+      "is_last_modified": true,
+      "description": "The last date/time the data was updated"
+    }
+  ]
+}
